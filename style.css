@@ -174,7 +174,7 @@ td {
 /*Responsive for screens smaller than 375px (mobile)*/
 @media screen and (max-width: 374px) {
     body {
-        padding-top: 205%;
+        padding-top: 300%;
     }
 
     main {
