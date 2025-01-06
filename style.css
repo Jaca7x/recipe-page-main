@@ -171,48 +171,12 @@ td {
     color: var(--stone-600);
 }
 
-/*Responsive for screens smaller than 375px (mobile)*/
-@media screen and (max-width: 374px) {
-    body {
-        padding-top: 300%;
-    }
 
-    main {
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    .para, .prepp, .prep, .ingredient, ol {
-        font-size: 14px;
-    }
-
-    .prepp {
-        padding-left: 10px;
-    }
-
-    .ingredient {
-        padding-left: 10px;
-    }
-
-    .dr {
-        padding-left: 20px;
-    }
-
-    table {
-        padding-left: 10px;
-    }
-}
 
 /*Responsive for screens between 375px and 1439px*/
 @media screen and (min-width: 375px) and (max-width: 1439px) {
     body {
-        padding-top: 30%;
-        padding-bottom: 30%;
+        padding-top: 195%;
     }
 
     main {
@@ -222,7 +186,7 @@ td {
     }
 
     h1 {
-        font-size: 26px;
+        font-size: 16px;
     }
 
     .para, .prepp, .prep, .ingredient, ol {
@@ -246,11 +210,11 @@ td {
     }
 }
 
-/* Responsivo para telas maiores que 1440px (desktop) */
-@media screen and (min-width: 1440px) {
+/* Responsive for screens between 376px and 1440px (desktop) */
+@media screen and (min-width: 376px) and (max-width: 1440px) {
     body {
-        padding-top: 40%;
-        padding-bottom: 40%;
+        padding-top: 32%;
+        padding-bottom: 30%;
     }
 
     main {
