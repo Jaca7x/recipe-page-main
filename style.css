@@ -247,3 +247,39 @@ td {
         padding-left: 20px;
     }
 }
+
+@media screen and (min-width: 1080px) {
+    body {
+        padding-top: 195%;
+    }
+
+    main {
+        width: 50%;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .para, .prepp, .prep, .ingredient, ol {
+        font-size: 15px;
+    }
+
+    .prepp {
+        padding-left: 15px;
+    }
+
+    .ingredient {
+        padding-left: 15px;
+    }
+
+    .dr {
+        padding-left: 30px;
+    }
+
+    table {
+        padding-left: 15px;
+    }
+}
